@@ -5,12 +5,11 @@ Submission of advance regression assignment
 
 
 ## Conclusions
-- Which variables are significant in predicting the price of a house?
-Answer: 'OverallQual', 'OverallCond', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 'KitchenAbvGr', 'Exterior1st_BrkComm'
+- Significant predicting variables: 'OverallQual', 'OverallCond', 'YearBuilt', 'BsmtFinSF1', 'BsmtFinSF2'
 How well those variables describe the price of a house.?
-Answer: r2_score = 0.82. 82% of data is represented by model.
+Answer: r2_score = 0.83 83% of data is represented by model.
 
-The optimal value of lambda for ridge and lasso regression : Ridge - 0.7 and Lasso - 50
+The optimal value of lambda for ridge and lasso regression : Ridge - 2 and Lasso - 100
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
